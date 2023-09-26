@@ -16,7 +16,7 @@ The `script` directory contains a script that can be used to generate an
 approximate implementation of the INI guidelines from their actual JSON source.
 
 Some details have been changed in the `INI` release directory to better 
-acommodate the Vale implementation.
+accommodate the Vale CLI.
 
 ### `testdata`
 
