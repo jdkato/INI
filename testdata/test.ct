@@ -1,0 +1,23 @@
+$ cdf ${ROOTDIR}/Abort
+$ vale --output=line --sort --normalize --relative --no-exit test.md
+test.md:3:10:INI.Abort:Use 'user-initiated termination', 'force quit', 'cancel', 'system-initiated termination', 'fail', 'close', 'end', 'halt', 'hard stop', or 'stop' instead of 'abort'.
+
+$ cdf ${ROOTDIR}/BlackhatWhitehat
+$ vale --output=line --sort --normalize --relative --no-exit test.md
+test.md:3:1:INI.BlackhatWhitehat:Use 'Unethical' instead of 'Black hat'.
+test.md:6:27:INI.BlackhatWhitehat:Use 'ethical' instead of 'white hat'.
+test.md:6:50:INI.BlackhatWhitehat:Use 'unethical' instead of 'black hat'.
+
+$ cdf ${ROOTDIR}/BlacklistWhitelist
+$ vale --output=line --sort --normalize --relative --no-exit test.md
+test.md:3:20:INI.BlacklistWhitelist:Use 'allowlist' instead of 'whitelist'.
+test.md:5:21:INI.BlacklistWhitelist:Use 'denylisted' instead of 'blacklisted'.
+
+$ cdf ${ROOTDIR}/MasterSlave
+$ vale --output=line --sort --normalize --relative --no-exit test.md
+test.md:3:1:INI.MasterSlave:Use 'Control plane/control plane node', 'Controller/doer', 'Primary/replica', 'Primary/secondary', 'Leader/follower', or 'Parent/child' instead of 'Master/slave'.
+test.md:7:5:INI.MasterSlave:Use 'control plane-control plane node', 'controller-doer', 'primary-replica', 'primary-secondary', 'leader-follower', or 'parent-child' instead of 'master-slave'.
+
+$ cdf ${ROOTDIR}/Segregate
+$ vale --output=line --sort --normalize --relative --no-exit test.md
+test.md:3:7:INI.Segregate:Use 'segmentation' or 'separation' instead of 'segregation'.

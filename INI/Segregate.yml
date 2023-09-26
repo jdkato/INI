@@ -1,0 +1,11 @@
+extends: substitution
+message: Use '%s' instead of '%s'.
+level: suggestion
+description: Tier 3 (suggestion-level) terms should be considered for replacement.
+ignorecase: true
+swap:
+  segregate: segment|separate
+  segregation: segmentation|separation
+action:
+  name: replace
+link: https://inclusivenaming.org/word-lists/tier-3/segregate/index.html

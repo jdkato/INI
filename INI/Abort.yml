@@ -1,0 +1,10 @@
+extends: substitution
+message: Use '%s' instead of '%s'.
+level: error
+description: Tier 1 (error-level) terms should be replaced whenever encountered.
+ignorecase: true
+swap:
+  abort: user-initiated termination|force quit|cancel|system-initiated termination|fail|close|end|halt|hard stop|stop
+action:
+  name: replace
+link: https://inclusivenaming.org/word-lists/tier-1/abort/index.html

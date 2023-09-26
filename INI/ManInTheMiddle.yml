@@ -1,0 +1,10 @@
+extends: substitution
+message: Use '%s' instead of '%s'.
+level: suggestion
+description: Tier 3 (suggestion-level) terms should be considered for replacement.
+ignorecase: true
+swap:
+  man[ -]in[ -]the[ -]middle: adversary-in-the-middle|interceptor|intermediary
+action:
+  name: replace
+link: https://inclusivenaming.org/word-lists/tier-3/man-in-middle/index.html

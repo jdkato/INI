@@ -1,0 +1,13 @@
+extends: substitution
+message: Use '%s' instead of '%s'.
+level: error
+description: Tier 1 (error-level) terms should be replaced whenever encountered.
+ignorecase: true
+swap:
+  whitelist: allowlist
+  blacklist: denylist
+  whitelisted: allowlisted
+  blacklisted: denylisted
+action:
+  name: replace
+link: https://inclusivenaming.org/word-lists/tier-1/whitelist/index.html

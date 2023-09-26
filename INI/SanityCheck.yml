@@ -1,0 +1,11 @@
+extends: substitution
+message: Use '%s' instead of '%s'.
+level: warning
+description: Tier 2 (warning-level) terms should be replaced whenever possible, barring
+  major breaking changes.
+ignorecase: true
+swap:
+  sanity[ -]check: confidence check|coherence check|test|verification
+action:
+  name: replace
+link: https://inclusivenaming.org/word-lists/tier-2/sanity-check/index.html
