@@ -3,6 +3,14 @@
 This repository contains a [Vale-compatible][1] implementation of the 
 guidelines created by the [Inclusive Naming Initiative][2].
 
+## Creating a Release
+
+To create a new release, follow the steps outlined at 
+[Managing releases in a repository][3].
+
+The Vale package, `INI.zip`, will be uploaded automatically by the GitHub CI
+workflow (`.github/workflows/release.yml`).
+
 ## Repository Structure
 
 ### `INI`
@@ -29,3 +37,4 @@ These tests are run automatically by the GitHub CI system (see
 
 [1]: https://github.com/errata-ai/vale
 [2]: https://inclusivenaming.org/
+[3]: https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository#creating-a-release
