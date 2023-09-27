@@ -3,6 +3,23 @@
 This repository contains a [Vale-compatible][1] implementation of the 
 guidelines created by the [Inclusive Naming Initiative][2].
 
+## Getting Started
+
+To get started, add the package to your configuration file (as shown below) and 
+then run `vale sync`.
+
+```ini
+StylesPath = styles
+MinAlertLevel = suggestion
+
+Packages = https://github.com/jdkato/INI/releases/download/v0.1.1/INI.zip
+
+[*]
+BasedOnStyles = Vale, INI
+```
+
+See [Packages][4] for more information.
+
 ## Creating a Release
 
 To create a new release, follow the steps outlined at 
@@ -38,3 +55,4 @@ These tests are run automatically by the GitHub CI system (see
 [1]: https://github.com/errata-ai/vale
 [2]: https://inclusivenaming.org/
 [3]: https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository#creating-a-release
+[4]: https://vale.sh/docs/topics/packages/
